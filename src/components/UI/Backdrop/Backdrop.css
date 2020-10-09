@@ -1,0 +1,9 @@
+.Backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;  /*That means, even when we scroll the page, the image will be in the same position */
+    z-index: 100;     /*If we have 2 elements in the same position, the element which has a greater z-index, will appear above of the other one*/
+    left: 0;          
+    top: 0;           /*With left and top in 0, this position will be in the up left corner of the screen */
+    background-color: rgba(0, 0, 0, 0.5);   /*Black color with 50% of trnasparency*/
+}

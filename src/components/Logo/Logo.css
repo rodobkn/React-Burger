@@ -1,0 +1,11 @@
+.Logo {
+    background-color: white;
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;  /* The height contains the padding as well. Because the default behaviour is height of 80% + padding + margins*/
+    border-radius: 5px;   /* That add a circle border style to the corners*/
+}
+
+.Logo img {
+    height: 100%;
+}

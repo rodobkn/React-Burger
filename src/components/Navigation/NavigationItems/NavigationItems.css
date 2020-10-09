@@ -1,0 +1,15 @@
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;   /* We dont want to have the default list style*/
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+@media (min-width: 500px) {  /* For desktop devices. When the screen is greater than 500px*/
+    .NavigationItems {
+        flex-flow: row;
+    }
+}
